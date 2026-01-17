@@ -42,14 +42,15 @@
 
     /* Logo sizing */
     .logo {
-      width: 70%;
-      height: auto;
-      display: block;
-      position: relative;
-      z-index: 2;
-      color: var(--ink);
-      filter: drop-shadow(0 0 22px rgba(255,255,255,0.06));
-    }
+  width: 55%;
+  height: auto;
+  position: relative;
+  z-index: 2;
+  color: var(--ink);
+
+  /* VISUAL centring fix */
+  transform: translateX(-6%);
+}
 
     /* Force SVG internals to use currentColor, even if the file was authored with black fills */
     .logo svg {
